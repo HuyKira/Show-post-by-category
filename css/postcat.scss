@@ -1,0 +1,40 @@
+.hk-post-by-category-widget{
+	ul{
+		li{
+			margin-bottom: 10px;
+		    padding-bottom: 10px;
+		    border-bottom: 1px dashed #d4d4d4;
+		    img{
+		    	width: 85px;
+		    	height: 85px;
+		    	float: left;
+		    	object-fit: cover;
+		    	border: 1px solid #ededed;
+		    	padding: 1px;
+		    	margin-right: 10px;
+		    	&:hover{
+		    		opacity: 0.7;
+		    	}
+		    }
+		    h4{
+		    	font-size: 14px;
+		    	font-weight: 500;
+		    	line-height: 20px;
+		    	margin-bottom: 5px;
+		    	a{
+		    		color: #333;
+		    		&:hover{
+		    			color: #e00;
+		    		}
+		    	}
+		    }
+		    .widget-post-meta-hk{
+		    	font-size: 13px;
+		    	color: #666;
+		    }
+		}
+	}
+	.clear{
+		clear: both;
+	}
+}
